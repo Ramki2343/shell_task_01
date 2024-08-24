@@ -12,7 +12,7 @@ echo "Enter second number: 20 "
 
 
 # Call the sum function and store the result
-result=$(sum $10 $20)
+result=$(sum $110 $220)
 
 # Display the result
-echo "The sum of $10 and $20 is: $result"
+echo "The sum of $110 and $220 is: $result"
