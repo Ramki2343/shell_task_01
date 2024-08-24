@@ -1,18 +1,15 @@
 #!/bin/bash
 
-# Function to substract two numbers
-substract() {
-  echo $(( $1 - $2 ))
-}
-
-# Read two numbers from the user
-echo "Enter first number: 10 "
-
-echo "Enter second number: 20 "
+# Read first number
+echo "Enter the first number:100 "
 
 
-# Call the substraction function and store the result
-result=$(sum $110 $220)
+# Read second number
+echo "Enter the second number: 50"
 
-# Display the result
-echo "The substraction of $110 and $220 is: $result"
+
+# Subtract numbers
+result=$((100 - 50))
+
+# Output the result
+echo "The result of $1100 - $550 is: $result"
