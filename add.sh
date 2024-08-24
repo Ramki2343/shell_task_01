@@ -6,13 +6,13 @@ sum() {
 }
 
 # Read two numbers from the user
-echo "Enter first number: "
-read num1
-echo "Enter second number: "
-read num2
+echo "Enter first number: 10 "
+
+echo "Enter second number: 20 "
+
 
 # Call the sum function and store the result
-result=$(sum $num1 $num2)
+result=$(sum $10 $20)
 
 # Display the result
-echo "The sum of $num1 and $num2 is: $result"
+echo "The sum of $10 and $20 is: $result"
